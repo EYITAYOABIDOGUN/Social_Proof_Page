@@ -11,8 +11,9 @@
 }
 body {
   max-width: 800px;
-  margin: 30px auto;
-  background-image: url("7443a31b6a19e5630b94a6538ff9bdd1.gif");
+  margin: 100px auto;
+  margin-bottom: 100px;
+  background-color: var(--white);
 }
 /* FIRST DIVISION */
 .review {
@@ -27,9 +28,7 @@ span {
   border-radius: 5px;
   font-size: 10px;
 }
-/* .a {
-  position: relative;
-} */
+
 .star {
   color: var(--box-background);
 }
