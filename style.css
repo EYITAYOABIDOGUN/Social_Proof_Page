@@ -14,6 +14,7 @@ body {
   margin: 100px auto;
   margin-bottom: 100px;
   background-color: var(--white);
+  font-family: "League Spartan", sans-serif;
 }
 /* FIRST DIVISION */
 .review {
@@ -53,6 +54,13 @@ span {
 }
 .detail {
   width: 200px;
+}
+.detail h1 {
+  font-size: 26px;
+  font-weight: 700;
+}
+#text {
+  width: 360px;
 }
 .boxs {
   margin-top: 50px;
@@ -115,6 +123,10 @@ span {
     flex-direction: column;
     align-items: center;
     text-align: center;
+  }
+  #text {
+    width: 200px;
+    margin-bottom: 30px;
   }
   .star {
     display: flex;
